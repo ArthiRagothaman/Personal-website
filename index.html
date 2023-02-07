@@ -19,9 +19,10 @@
         </i></a>
       <nav class="navbar">
         <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Contact</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#resume">My Resume</a>
+        <a href="#contact">Contact</a>
       </nav>
     </header>
     <!-- Home section -->
@@ -34,54 +35,60 @@
     <section id="about" class="about">
       <div class="box-container">
         <div class="box">
-          <h2 class="heading">About Section</h2>
+          <div class="image">
+            <img src="./images/computer.jpeg" alt="">
+          </div>
+        </div>
+        <div class="box">
+          <h1 class="heading">About <span>me</span></h1>
           <p>A motivated individual with a good knowledge of languages and development tools,seeking a position
             in a growth-oriented company where I can use my skills to the advantage of the company while having the
             scope to develop my own skills.</p>
 
+          <a href="" class="btn">hire me</a>
+          <a href="" class="btn">download cv</a>
         </div>
-        <div class="box">
-          <img src="#" alt="">
-        </div>
+
+
       </div>
 
     </section>
     <!-- portfolio section -->
     <section class="portfolio" id="portfolio">
-      <h1 class="heading">featured <span>Portfolio</span></h1>
+      <h1 class="heading">Current <span>Portfolio</span></h1>
       <div class="box-container">
         <div class="box">
           <div class="image">
-            <img src="./images/calculator.png" alt="">
+            <img src="./images/calculator.jpeg" alt="">
             <div class="content">
-              <h2>Project #1</h2>
+              <h2>Simple-Calculator</h2>
 
             </div>
           </div>
         </div>
         <div class="box">
           <div class="image">
-            <img src="" alt="">
+            <img src="./images/snakegame.jpeg" alt="">
             <div class="content">
-              <h2>Project #2</h2>
+              <h2>Snake game</h2>
 
             </div>
           </div>
         </div>
         <div class="box">
           <div class="image">
-            <img src="" alt="">
+            <img src="./images/todolist.jpeg" alt="">
             <div class="content">
-              <h2>Project #3</h2>
+              <h2>To-Do List</h2>
 
             </div>
           </div>
         </div>
         <div class="box">
           <div class="image">
-            <img src="" alt="">
+            <img src="./images/shopping website.jpeg" alt="">
             <div class="content">
-              <h2>Project #4</h2>
+              <h2>E-commerce</h2>
 
             </div>
           </div>
@@ -106,9 +113,91 @@
         </div>
       </div>
     </section>
+    <!-- Resume Section -->
+    <section class="resume" id="resume">
+      <h1 class="heading">my <span>resume</span></h1>
+      <div class="col-container">
+        <div class="col">
+          <h2>education</h2>
+          <div class="box">
+            <span><i class="material-icons"> calendar_today </i> Jan 2019 - Jan 2020</span>
+            <h3>masters in computer science</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ut perferendis quas
+              tenetur adipisci sunt!
+            </p>
+            <p class="university">new york university</p>
+          </div>
+
+          <div class="box">
+            <span><i class="material-icons"> calendar_today </i> Jan 2019 - Jan 2020</span>
+            <h3>masters in computer science</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ut perferendis quas
+              tenetur adipisci sunt!
+            </p>
+            <p class="university">new york university</p>
+          </div>
+        </div>
+        <div class="col">
+          <h2>Experience</h2>
+          <div class="box">
+            <span><i class="material-icons"> calendar_today </i> Jan 2019 - Jan 2020</span>
+            <h3>masters in computer science</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ut perferendis quas
+              tenetur adipisci sunt!
+            </p>
+            <p class="university">new york university</p>
+          </div>
+          <div class="box">
+            <span><i class="material-icons"> calendar_today </i> Jan 2019 - Jan 2020</span>
+            <h3>masters in computer science</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ut perferendis quas
+              tenetur adipisci sunt!
+            </p>
+            <p class="university">new york university</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact details section -->
+    <section class="contact" id="contact">
+      <h1 class="heading">get <span>in touch</span></h1>
+      <div class="col-container">
+        <div class="col">
+          <h2>my contact details</h2>
+          <p>email</p>
+          <span>arthi.mca11@gmail.com</span>
+          <br />
+          <br />
+          <p>phone</p>
+          <span>+4917676865209</span>
+          <br />
+          <br />
+          <p>address</p>
+          <span>
+            Sebastianstrsse 88 <br />
+            köln,50735 <br />
+            Germany.
+          </span>
+        </div>
+      </div>
+    </section>
+    <!-- footer section -->
+    <section class="footer" id="footer">
+      <div class="socials">
+        <ion-icon name="logo-github">
+          <a href="https://github.com/ArthiRagothaman" target="_blank"></a>
+        </ion-icon>
+        <ion-icon name="logo-linkedin"></ion-icon>
+      </div>
+    </section>
     <!-- ion icons import -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script type="module" src="/main.js"></script>
+
   </body>
 
 </html>
