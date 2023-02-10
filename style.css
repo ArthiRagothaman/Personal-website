@@ -162,6 +162,7 @@ section {
 .about .box-container .box .image {
 	height: 100%;
 	overflow: hidden;
+
 }
 .about .box-container .box img {
 	width: 100%;
@@ -217,7 +218,7 @@ section {
 	justify-content: center;
 	transform: translateY(100%);
 }
-.portfolio .box-container .box .image .content h2 {
+.portfolio .box-container .box .image .content a {
 	font-size: 1.8rem;
 	color: var(--white);
 	/* background-color: var(--white); */
