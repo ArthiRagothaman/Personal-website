@@ -310,7 +310,7 @@ section {
 	text-align: center;
 }
 
-.footer .socials ion-icon {
+.footer .socials a {
 	font-size: 2.5rem;
 	color: var(--yellow);
 	background-color: var(--light-bg);
