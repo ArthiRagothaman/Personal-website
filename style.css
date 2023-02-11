@@ -123,12 +123,7 @@ section {
 .header.active .menu {
 	color: var(--dark-bg);
 }
-/* .header .logo {
-	font-size: 2.5rem;
-	color: var(--white);
-	letter-spacing: 0.5rem;
-	margin-right: auto;
-} */
+
 .header .navbar {
 	display: flex;
 	align-items: center;
@@ -152,12 +147,7 @@ section {
 .header .navbar a:hover {
 	color: var(--yellow);
 }
-/* .header .image1 {
-	font-size: 2.5rem;
-	color: var(--white);
-	cursor: pointer;
-	display: none;
-} */
+
 /* About section */
 .about .box-container .box .image {
 	height: 100%;
@@ -176,7 +166,7 @@ section {
 .about .box-container .box p {
 	font-size: 1.7rem;
 	line-height: 2;
-	margin-bottom: 2rem;
+	margin-bottom: 5rem;
 	letter-spacing: 0.1rem;
 	color: var(--gray);
 	text-transform: none;
