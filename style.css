@@ -153,9 +153,9 @@ section {
 	height: 100%;
 	overflow: hidden;
 }
-.about .box-container .box img {
-	width: 100%;
-	height: 100%;
+.about .box-container .box .image img {
+	width: 80%;
+	height: 80%;
 	object-fit: cover;
 }
 .about .box-container {
